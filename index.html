@@ -38,21 +38,39 @@
        <!-- submit button -->
        <button type="submit" class="btn text-capitalize budget-submit" id="budget-submit">calculate</button>
       </form>
+      <br/>
+      <br/>
+       <!-- Savings feedback -->
+       <div class="savings-feedback alert alert-danger text-capitalize">budget feedback</div>
+       <!-- budget form -->
+       <form id="savings-form" class=" savings-form">
+        <h5 class="text-capitalize">please enter your Saving</h5>
+        <div class="form-group">
+         <input type="number" class="form-control savings-input" id="savings-input">
+        </div>
+        <!-- submit button -->
+        <button type="submit" class="btn text-capitalize savings-submit" id="savings-submit">calculate</button>
+       </form>
      </div>
      <div class="col-md-7">
       <!-- app info -->
       <div class="row my-3">
-       <div class="col-4 text-center mb-2">
+       <div class="col-3 text-center mb-2">
         <h6 class="text-uppercase info-title">budget</h6>
         <span class="budget-icon"><i class="fas fa-money-bill-alt"></i></span>
         <h4 class="text-uppercase mt-2 budget" id="budget"><span>$ </span><span id="budget-amount">0</span></h4>
        </div>
-       <div class="col-4 text-center">
+       <div class="col-3 text-center mb-2">
+        <h6 class="text-uppercase info-title">savings</h6>
+        <span class="saving-icon"><i class="fas fa-piggy-bank"></i></span>
+        <h4 class="text-uppercase mt-2 budget" id="saving"><span>$ </span><span id="saving-amount">0</span></h4>
+       </div>
+       <div class="col-3 text-center">
         <h6 class="text-uppercase info-title">expenses</h6>
         <span class="expense-icon"><i class="far fa-credit-card"></i></span>
         <h4 class="text-uppercase mt-2 expense" id="expense"><span>$ </span><span id="expense-amount">0</span></h4>
        </div>
-       <div class="col-4 text-center">
+       <div class="col-3 text-center">
         <h6 class="text-uppercase info-title">balance</h6>
         <span class="balance-icon"><i class="fas fa-dollar-sign"></i></span>
         <h4 class="text-uppercase mt-2 balance" id="balance"> <span>$ </span><span id="balance-amount">0</span></h4>
@@ -60,7 +78,6 @@
       </div>
      </div>
     </div>
-
     <div class="row">
      <div class="col-md-5 my-3">
       <!-- expense feedback -->

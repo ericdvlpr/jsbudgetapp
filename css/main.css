@@ -134,6 +134,10 @@ body {
   .balance {
     font-size: 2.6rem;
   }
+  .savings{
+    font-size: 2.6rem;
+    color: var(--mainBlue);
+  }
   .budget-icon,
   .saving-icon,
   .expense-icon,
